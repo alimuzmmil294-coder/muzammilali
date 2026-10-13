@@ -51,21 +51,21 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+      <div className="max-w-6xl 2xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 sm:py-4 flex justify-between items-center">
         <a
           href="#home"
           onClick={(e) => {
             e.preventDefault();
             scrollTo("home");
           }}
-          className="text-lg font-bold tracking-tight text-foreground hover:text-primary transition-colors font-mono"
+          className="text-base sm:text-lg font-bold tracking-tight text-foreground hover:text-primary transition-colors font-mono truncate max-w-[210px] sm:max-w-none"
         >
           &lt; {personalInfo.name} /&gt;
         </a>
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden p-2 rounded-lg text-foreground hover:bg-accent transition-colors"
+          className="md:hidden p-2 rounded-lg text-foreground hover:bg-accent transition-colors flex items-center justify-center shrink-0 ml-2"
           onClick={toggleMenu}
           aria-label="Toggle Menu"
         >
@@ -73,7 +73,7 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-0.5 lg:gap-1 2xl:gap-2">
           {visibleNavLinks.map((link) => {
             const id = link.href.substring(1);
             const isActive = activeSection === id;
@@ -85,7 +85,7 @@ export default function Navbar() {
                   e.preventDefault();
                   scrollTo(id);
                 }}
-                className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+                className={`px-2.5 lg:px-3 py-2 text-xs lg:text-sm font-medium rounded-md transition-colors ${
                   isActive
                     ? "text-primary bg-primary/10"
                     : "text-muted-foreground hover:text-foreground hover:bg-accent"
@@ -100,8 +100,8 @@ export default function Navbar() {
 
       {/* Mobile Nav Drawer */}
       {isOpen && (
-        <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border overflow-hidden transition-all duration-200">
-          <nav className="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-1">
+        <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border overflow-hidden transition-all duration-200 shadow-md">
+          <nav className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-1">
             {visibleNavLinks.map((link) => {
               const id = link.href.substring(1);
               const isActive = activeSection === id;

@@ -23,12 +23,12 @@ export default function ThemeToggle() {
     <button
       onClick={toggleTheme}
       aria-label="Toggle theme"
-      className="fixed bottom-24 right-4 z-50 p-3 rounded-full bg-card border border-border shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 active:scale-95 text-foreground cursor-pointer"
+      className="fixed bottom-5 sm:bottom-8 right-4 sm:right-6 md:right-8 z-50 p-2.5 sm:p-3 rounded-full bg-card/90 backdrop-blur-md border border-border shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 active:scale-95 text-foreground cursor-pointer"
     >
       {theme === "light" ? (
-        <Moon className="h-5 w-5 text-foreground transition-transform duration-300" />
+        <Moon className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-foreground transition-transform duration-300" />
       ) : (
-        <Sun className="h-5 w-5 text-foreground transition-transform duration-300" />
+        <Sun className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-foreground transition-transform duration-300" />
       )}
     </button>
   );

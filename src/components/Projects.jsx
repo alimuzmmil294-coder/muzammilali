@@ -30,7 +30,7 @@ function ProjectCard({ project, index }) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               {project.status && (
-                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-primary text-primary-foreground backdrop-blur-md shadow-sm">
+                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] sm:text-xs font-semibold bg-primary text-primary-foreground backdrop-blur-md shadow-sm">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground animate-pulse" />
                   {project.status}
                 </div>
@@ -42,7 +42,7 @@ function ProjectCard({ project, index }) {
           ) : (
             <div className="relative h-48 sm:h-52 overflow-hidden bg-muted/40 border-b border-dashed border-border/70 flex flex-col items-center justify-center text-center p-4 select-none group-hover:bg-muted/60 transition-colors">
               {project.status && (
-                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-primary text-primary-foreground backdrop-blur-md shadow-sm">
+                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] sm:text-xs font-semibold bg-primary text-primary-foreground backdrop-blur-md shadow-sm">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground animate-pulse" />
                   {project.status}
                 </div>
@@ -65,11 +65,11 @@ function ProjectCard({ project, index }) {
           )}
 
           {/* Details Body */}
-          <div className="flex flex-col flex-grow p-5 sm:p-6">
-            <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors duration-200">
+          <div className="flex flex-col flex-grow p-4 sm:p-5 md:p-6">
+            <h3 className="font-bold text-base sm:text-lg text-foreground mb-2 group-hover:text-primary transition-colors duration-200 line-clamp-2">
               {project.title}
             </h3>
-            <p className="text-muted-foreground text-sm mb-4 flex-grow leading-relaxed line-clamp-3">
+            <p className="text-muted-foreground text-xs sm:text-sm mb-4 flex-grow leading-relaxed line-clamp-3">
               {project.description}
             </p>
 
@@ -77,7 +77,7 @@ function ProjectCard({ project, index }) {
               {project.technologies.map((tech, idx) => (
                 <span
                   key={idx}
-                  className="rounded-md bg-secondary text-secondary-foreground px-2.5 py-0.5 text-xs font-medium"
+                  className="rounded-md bg-secondary text-secondary-foreground px-2 sm:px-2.5 py-0.5 text-[11px] sm:text-xs font-medium"
                 >
                   {tech}
                 </span>
@@ -92,11 +92,11 @@ function ProjectCard({ project, index }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-12 md:py-14 bg-muted/50 px-4 sm:px-6">
-      <div className="max-w-6xl mx-auto">
+    <section id="projects" className="py-12 sm:py-16 md:py-20 bg-muted/50 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
         <SectionHeader title="Featured Projects" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 2xl:gap-8">
           {projects.map((project, index) => (
             <ProjectCard key={project.title} project={project} index={index} />
           ))}

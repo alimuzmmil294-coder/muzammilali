@@ -20,8 +20,8 @@ function RoleItem({ role }) {
   return (
     <div className="space-y-3 pt-4 first:pt-0">
       {/* Type & Location */}
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-        <span className="inline-flex items-center rounded-full px-3 py-0.5 text-[11px] font-medium bg-primary/10 text-primary border border-primary/20">
+      <div className="flex flex-wrap items-center gap-x-2.5 sm:gap-x-3 gap-y-1">
+        <span className="inline-flex items-center rounded-full px-2.5 sm:px-3 py-0.5 text-[10px] sm:text-[11px] font-medium bg-primary/10 text-primary border border-primary/20">
           <Briefcase className="mr-1.5 h-3 w-3" />
           {role.type}
         </span>
@@ -32,7 +32,7 @@ function RoleItem({ role }) {
       </div>
 
       {/* Description */}
-      <p className="text-sm leading-relaxed text-foreground/90">
+      <p className="text-xs sm:text-sm leading-relaxed text-foreground/90">
         {role.description}
       </p>
 
@@ -42,9 +42,9 @@ function RoleItem({ role }) {
           {role.highlights.map((point, idx) => (
             <li
               key={idx}
-              className="flex gap-3 text-sm leading-relaxed text-muted-foreground"
+              className="flex gap-2.5 sm:gap-3 text-xs sm:text-sm leading-relaxed text-muted-foreground"
             >
-              <span className="mt-[0.55rem] h-1.5 w-1.5 shrink-0 rounded-full bg-primary/60" />
+              <span className="mt-[0.5rem] sm:mt-[0.55rem] h-1.5 w-1.5 shrink-0 rounded-full bg-primary/60" />
               <span>{point}</span>
             </li>
           ))}
@@ -53,11 +53,11 @@ function RoleItem({ role }) {
 
       {/* Technologies */}
       {role.technologies && role.technologies.length > 0 && (
-        <div className="flex flex-wrap gap-2 pt-1.5">
+        <div className="flex flex-wrap gap-1.5 sm:gap-2 pt-1.5">
           {role.technologies.map((tech, idx) => (
             <span
               key={idx}
-              className="rounded-lg border border-primary/10 bg-primary/5 px-2.5 py-0.5 text-[11px] font-medium text-primary"
+              className="rounded-lg border border-primary/10 bg-primary/5 px-2.5 py-0.5 text-[10px] sm:text-[11px] font-medium text-primary"
             >
               {tech}
             </span>
@@ -70,11 +70,11 @@ function RoleItem({ role }) {
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-12 md:py-14 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <section id="experience" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
         <SectionHeader title="Work Experience" />
 
-        <div className="space-y-6">
+        <div className="space-y-5 sm:space-y-6">
           {experiences.map((exp, expIdx) => {
             const hasMultipleRoles = exp.roles.length > 1;
 
@@ -92,34 +92,34 @@ export default function Experience() {
                 className="group rounded-2xl border border-border/60 bg-card shadow-sm transition-all duration-300 hover:shadow-lg hover:border-primary/30 hover:shadow-primary/5 overflow-hidden"
               >
                 {/* Company Header */}
-                <header className="flex items-start gap-4 px-6 py-5 border-b border-border/50 bg-muted/20 group-hover:bg-muted/30 transition-colors duration-300">
-                  <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-primary/10 font-bold text-primary ring-1 ring-inset ring-primary/15 group-hover:ring-primary/30 group-hover:bg-primary/15 transition-all duration-300 text-sm">
+                <header className="flex items-start gap-3 sm:gap-4 p-4 sm:p-5 md:p-6 border-b border-border/50 bg-muted/20 group-hover:bg-muted/30 transition-colors duration-300">
+                  <div className="grid h-10 w-10 sm:h-12 sm:w-12 shrink-0 place-items-center rounded-xl bg-primary/10 font-bold text-primary ring-1 ring-inset ring-primary/15 group-hover:ring-primary/30 group-hover:bg-primary/15 transition-all duration-300 text-xs sm:text-sm">
                     {getInitials(exp.company)}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
-                      <h3 className="text-base font-semibold leading-snug text-foreground sm:text-lg group-hover:text-primary transition-colors">
+                    <div className="flex flex-wrap items-center gap-x-2.5 sm:gap-x-3 gap-y-1">
+                      <h3 className="text-sm sm:text-base md:text-lg font-semibold leading-snug text-foreground group-hover:text-primary transition-colors">
                         {exp.company}
                       </h3>
                       {exp.current && (
-                        <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-[11px] font-medium text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                        <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-[10px] sm:text-[11px] font-medium text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
                           Present
                         </span>
                       )}
                     </div>
-                    <p className="text-xs text-muted-foreground mt-1">
+                    <p className="text-xs text-muted-foreground mt-0.5 sm:mt-1">
                       {exp.period} • {exp.duration}
                     </p>
                   </div>
                 </header>
 
                 {/* Roles Body */}
-                <div className="p-6 divide-y divide-border/40">
+                <div className="p-4 sm:p-5 md:p-6 divide-y divide-border/40">
                   {exp.roles.map((role) => (
                     <div key={role.title} className="py-4 first:pt-0 last:pb-0">
                       {hasMultipleRoles && (
                         <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
-                          <h4 className="text-sm font-semibold text-foreground">
+                          <h4 className="text-xs sm:text-sm font-semibold text-foreground">
                             {role.title}
                           </h4>
                           <span className="text-xs font-medium text-muted-foreground whitespace-nowrap">
@@ -129,7 +129,7 @@ export default function Experience() {
                       )}
                       {!hasMultipleRoles && (
                         <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
-                          <h4 className="text-sm font-semibold text-foreground">
+                          <h4 className="text-xs sm:text-sm font-semibold text-foreground">
                             {role.title}
                           </h4>
                         </div>
