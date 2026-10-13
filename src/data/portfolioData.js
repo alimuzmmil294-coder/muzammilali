@@ -195,52 +195,61 @@ export const projects = [
     ],
   },
   // SMIT LMS
-  {
-    title: "Founder - JobPlus",
-    description:
-      "JobPlus is a job posting and application platform I founded, connecting schools, students, and tech professionals. Built using React, Redux, and Node.js, the platform features role-specific dashboards for recruiters, students, and administrators, enabling seamless job posting, applications, and tracking. I handled end-to-end development, state management with Redux, and deployment, creating a scalable, real-world solution that bridges education and industry.",
-        projectLink: "https://jobplus.ibrahimkhan.pro/",
-    technologies: ["TypeScript", "React", "Redux", "Node.js"],
-  },
+  // {
+  //   title: "Founder - JobPlus",
+  //   description:
+  //     "JobPlus is a job posting and application platform I founded, connecting schools, students, and tech professionals. Built using React, Redux, and Node.js, the platform features role-specific dashboards for recruiters, students, and administrators, enabling seamless job posting, applications, and tracking. I handled end-to-end development, state management with Redux, and deployment, creating a scalable, real-world solution that bridges education and industry.",
+  //   projectLink: "https://jobplus.ibrahimkhan.pro/",
+  //   technologies: ["TypeScript", "React", "Redux", "Node.js"],
+  // },
 
   // POLLIFY
   {
-    title: "Founder - Personal Smart AI",
+    title: "Pollify - Full-Stack Interactive Polling App",
     description:
-      "Build an intelligent content creation platform capable of generating high-quality articles, blogs, and AI-powered images using advanced natural language and image generation models. Designed to enhance creativity and productivity through automation and smart personalization.",
-        projectLink: "https://personalai.ibrahimkhan.pro/",
-    technologies: [
-      "JavaScript",
-      "React",
-      "Redux",
-      "PostgreSQL",
-      "Neon",
-      "OpenAI",
+      "A real-time community engagement platform enabling users to create, participate in, and track dynamic polls with instantaneous analytics.",
+    image: "/assets/pollify.png",
+    highlights: [
+      "Full user auth flow (register, login, sessions)",
+      "Create, edit, delete, vote, save, and share polls",
+      "Interactive vote tallying with dynamic progress bars",
+      "Threaded comments and personal activity metrics dashboard",
     ],
-  },
-
-  //
-  {
-    title: "CapsPro - E-commerce Platform",
-    description:
-      "Developed a fully functional e-commerce platform with Next.js frontend and real-time admin panel powered by Socket.io. Features include product management, order tracking, real-time inventory updates, and secure payment integration. Built a scalable architecture supporting dynamic product catalogs and seamless customer experience across all devices.",
-        projectLink: "https://capspro.online/",
+    projectLink: "https://pollify-frontend-seven.vercel.app/",
     technologies: [
-      "Next.js",
-      "React",
+      "React.js",
       "Node.js",
-      "Socket.io",
+      "Express.js",
       "MongoDB",
-      "AWS",
+      "Tailwind CSS",
+      "JWT",
     ],
   },
 
+  // Hackathon Project
+  {
+    title: "MedFlow - Smart Clinic Management Operating System",
+    status: "In Development",
+    description:
+      "An AI-assisted clinic management platform engineered to modernize outpatient workflows for small healthcare practices. Features encrypted digital patient health records, appointment scheduling, automated prescription handling, and role-based staff permissions—integrated with AI diagnostics that assist doctors and translate clinical insights into patient-friendly language.",
+    image: "/assets/medflow.png",
+    projectLink: "https://heckathon-project-six.vercel.app/",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "AI Integration",
+      "Role-Based Access (RBAC)",
+    ],
+  },
   // E-COM WEBSITE
   {
     title: "Islamic Desk Admin Panel",
     description:
       "Contributed to the development of the Islamic Desk Admin Panel, implementing core features for content and user management. Integrated global state management using Redux for seamless data handling across components, and optimized dashboard performance for a smooth user experience.",
-        projectLink: "https://www.islamicdesk.com/",
+    projectLink: "https://www.islamicdesk.com/",
     technologies: ["JavaScript", "React", "Node.js", "Redux"],
   },
 
@@ -248,14 +257,14 @@ export const projects = [
     title: "Vellato Mobile App",
     description:
       "Designed and developed a fully responsive mobile application interface for Android and iOS using React Native. Focused on creating pixel-perfect UI/UX layouts that adapt seamlessly across screen sizes and devices, delivering a user-centric experience by applying modern mobile design principles and reusable components.",
-        projectLink: "https://github.com/Ibrahimkhan432/Vellato-App/",
+    projectLink: "https://github.com/Ibrahimkhan432/Vellato-App/",
     technologies: ["React Native", "UI/UX", "Mobile Design"],
   },
   {
     title: "Technical Lead – 12Commerce SaaS",
     description:
       "12Commerce SaaS – Leading a global e-commerce platform that combines fully functional websites with an intelligent lead generation widget, currently used by international clients. As Tech Lead & Project Manager, I oversee end-to-end development, deployment, and client delivery, ensuring the platform is scalable, efficient, and future-ready.",
-        projectLink: "https://store.12monday.net/",
+    projectLink: "https://store.12monday.net/",
     technologies: [
       "JavaScript",
       "React",

@@ -29,12 +29,24 @@ function ProjectCard({ project, index }) {
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              {project.status && (
+                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-primary text-primary-foreground backdrop-blur-md shadow-sm">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground animate-pulse" />
+                  {project.status}
+                </div>
+              )}
               <div className="absolute top-3 right-3 p-2 rounded-full bg-background/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-sm">
                 <ExternalLink className="h-4 w-4 text-foreground" />
               </div>
             </div>
           ) : (
             <div className="relative h-48 sm:h-52 overflow-hidden bg-muted/40 border-b border-dashed border-border/70 flex flex-col items-center justify-center text-center p-4 select-none group-hover:bg-muted/60 transition-colors">
+              {project.status && (
+                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-primary text-primary-foreground backdrop-blur-md shadow-sm">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary-foreground animate-pulse" />
+                  {project.status}
+                </div>
+              )}
               <div className="p-3 rounded-xl bg-primary/10 text-primary mb-2">
                 <Image className="h-6 w-6" />
               </div>
