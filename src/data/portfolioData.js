@@ -1,18 +1,21 @@
 export const personalInfo = {
   name: "Muzammil Ali",
-  titlePrefix: "Full Stack Developer & Data Science Enthusiast",
+  titlePrefix: "Full-Stack MERN Developer • Peshawar, Pakistan",
   roles: [
-    "Full Stack Developer",
+    "Full-Stack MERN Developer",
     "Software Engineer",
+    "React & Node.js Specialist",
     "Data Science Enthusiast",
   ],
-  bio: "I build scalable, production-ready web applications and lead engineering teams. Passionate about bridging business goals with technical solutions.",
+  bio: "I build scalable, production-ready web applications and lead engineering teams. I am Muzammil Ali, a professional Full-Stack MERN Developer based in Peshawar, Pakistan. I am passionate about bridging business goals with high-performance technical solutions.",
   aboutBio: [
-    "I’m a Full-Stack Web Developer and Data Science student passionate about building modern, scalable, and user-focused web applications. I work across the frontend and backend, with experience in technologies such as JavaScript, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and REST APIs.I enjoy turning ideas and business requirements into practical digital solutions, from designing intuitive user interfaces to developing reliable backend systems and integrating APIs. I’m also experienced in working within collaborative development teams, contributing to project architecture, solving technical challenges, and maintaining clean, reusable, and maintainable code. Beyond web development, I’m exploring Data Science, Artificial Intelligence, and cloud technologies to expand my technical perspective and build smarter solutions. I’m continuously learning, experimenting with new technologies, and looking for opportunities to grow as a developer while creating software that delivers real-world value.",
+    "I’m a Full-Stack Web Developer and Data Science student based in Peshawar, Pakistan, passionate about building modern, scalable, and user-focused web applications. Trained through Saylani Mass IT Training (SMIT), I work across the frontend and backend using technologies such as JavaScript, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, and REST APIs.",
+    "I enjoy turning ideas and business requirements into practical digital solutions, from designing intuitive user interfaces to developing reliable backend systems and integrating APIs. I’m also experienced in working within collaborative development teams, contributing to project architecture, solving technical challenges, and maintaining clean, reusable, and maintainable code.",
+    "Beyond web development, I’m pursuing Data Science at the University of Peshawar, exploring Artificial Intelligence and cloud technologies to expand my technical perspective. I’m continuously learning, experimenting with new technologies, and looking for opportunities to grow as a developer while creating software that delivers real-world value.",
   ],
   email: "alimuzmmil294@gmail.com",
   phone: "0370-0504863",
-  location: "Pakistan",
+  location: "Peshawar, Khyber Pakhtunkhwa, Pakistan",
   profileImage: "/assets/profilepic.jpg",
   socialLinks: [
     {
@@ -55,8 +58,9 @@ export const education = [
     period: "2025 - 2029",
   },
   {
-    institution: "Sylani Mass IT Training (SMIT)",
-    degree: "Modern web and mobile development",
+    institution: "Saylani Mass I.T. Training (SMIT)",
+    degree: "Web and Mobile Application Development (MERN Stack)",
+    period: "2024 - 2025",
   },
 ];
 
@@ -180,34 +184,25 @@ export const skills = [
 export const projects = [
   // EduHub
   {
-    title: "EduHub - Learning Management System (LMS)",
+    title: "EduHub — Institutional Learning Management System (LMS)",
     description:
-      "EduHub is an institutional learning management system designed to streamline academic operations and classroom collaboration. Built with a scalable frontend architecture, it provides role-based portals for students, instructors, and administrators to seamlessly manage course enrollments, lecture materials, assignments, attendance tracking, and academic performance analytics from a unified dashboard.",
+      "Architected by Muzammil Ali at Saylani Mass IT Training (SMIT), EduHub is an institutional learning management system designed to streamline academic operations and classroom collaboration. Built with a scalable React and Tailwind CSS frontend architecture, it provides role-based portals for students, instructors, and administrators to seamlessly manage course enrollments, lecture materials, assignments, attendance tracking, and academic performance analytics.",
     image: "/assets/eduhub.png",
-    projectLink: "https://eduhub-demo.com", // Replace with your actual project/live demo link
+    projectLink: "https://eduhub-demo.com",
     technologies: [
       "React.js",
-      // "TypeScript",
       "Tailwind CSS",
       "Redux Toolkit",
       "REST API",
       "Git & GitHub",
     ],
   },
-  // SMIT LMS
-  // {
-  //   title: "Founder - JobPlus",
-  //   description:
-  //     "JobPlus is a job posting and application platform I founded, connecting schools, students, and tech professionals. Built using React, Redux, and Node.js, the platform features role-specific dashboards for recruiters, students, and administrators, enabling seamless job posting, applications, and tracking. I handled end-to-end development, state management with Redux, and deployment, creating a scalable, real-world solution that bridges education and industry.",
-  //   projectLink: "https://jobplus.ibrahimkhan.pro/",
-  //   technologies: ["TypeScript", "React", "Redux", "Node.js"],
-  // },
 
   // POLLIFY
   {
-    title: "Pollify - Full-Stack Interactive Polling App",
+    title: "Pollify — Full-Stack Interactive MERN Polling App",
     description:
-      "A real-time community engagement platform enabling users to create, participate in, and track dynamic polls with instantaneous analytics.",
+      "Engineered by Muzammil Ali, Pollify is a real-time community engagement platform built with the MERN stack (MongoDB, Express.js, React, Node.js). Features full JWT user authentication, interactive vote tallying with dynamic progress bars, threaded comments, and personal activity metrics.",
     image: "/assets/pollify.png",
     highlights: [
       "Full user auth flow (register, login, sessions)",
@@ -228,10 +223,10 @@ export const projects = [
 
   // Hackathon Project
   {
-    title: "MedFlow - Smart Clinic Management Operating System",
+    title: "MedFlow — Smart Clinic Management Operating System",
     status: "In Development",
     description:
-      "An AI-assisted clinic management platform engineered to modernize outpatient workflows for small healthcare practices. Features encrypted digital patient health records, appointment scheduling, automated prescription handling, and role-based staff permissions—integrated with AI diagnostics that assist doctors and translate clinical insights into patient-friendly language.",
+      "Engineered by Muzammil Ali, MedFlow is an AI-assisted clinic management platform modernizing outpatient workflows for healthcare practices. Features encrypted digital patient health records, appointment scheduling, automated prescription handling, and role-based staff permissions—integrated with AI diagnostics that assist doctors and translate clinical insights into patient-friendly language.",
     image: "/assets/medflow.png",
     projectLink: "https://heckathon-project-six.vercel.app/",
     technologies: [
@@ -248,7 +243,7 @@ export const projects = [
   {
     title: "Islamic Desk Admin Panel",
     description:
-      "Contributed to the development of the Islamic Desk Admin Panel, implementing core features for content and user management. Integrated global state management using Redux for seamless data handling across components, and optimized dashboard performance for a smooth user experience.",
+      "Contributed to the development of the Islamic Desk Admin Panel by Muzammil Ali, implementing core features for content and user management. Integrated global state management using Redux for seamless data handling across components, and optimized dashboard performance for a smooth user experience.",
     projectLink: "https://www.islamicdesk.com/",
     technologies: ["JavaScript", "React", "Node.js", "Redux"],
   },
@@ -257,13 +252,13 @@ export const projects = [
     title: "Vellato Mobile App",
     description:
       "Designed and developed a fully responsive mobile application interface for Android and iOS using React Native. Focused on creating pixel-perfect UI/UX layouts that adapt seamlessly across screen sizes and devices, delivering a user-centric experience by applying modern mobile design principles and reusable components.",
-    projectLink: "https://github.com/Ibrahimkhan432/Vellato-App/",
+    projectLink: "https://github.com/alimuzmmil294-coder",
     technologies: ["React Native", "UI/UX", "Mobile Design"],
   },
   {
-    title: "Technical Lead – 12Commerce SaaS",
+    title: "12Commerce SaaS — Lead Generation Platform",
     description:
-      "12Commerce SaaS – Leading a global e-commerce platform that combines fully functional websites with an intelligent lead generation widget, currently used by international clients. As Tech Lead & Project Manager, I oversee end-to-end development, deployment, and client delivery, ensuring the platform is scalable, efficient, and future-ready.",
+      "12Commerce SaaS – Global e-commerce platform combining functional websites with an intelligent lead generation widget. Overseeing full-stack development, deployment, and client delivery, ensuring the platform is scalable, efficient, and future-ready.",
     projectLink: "https://store.12monday.net/",
     technologies: [
       "JavaScript",
@@ -276,4 +271,33 @@ export const projects = [
   },
 ];
 
-export const certificates = [];
+export const certificates = [
+  {
+    title: "Web and Mobile App Development (MERN)",
+    organization: "Saylani Mass IT Training (SMIT)",
+    description:
+      "Professional full-stack certification covering MongoDB, Express.js, React, Node.js, Redux Toolkit, REST API architecture, and production deployment.",
+    icon: "code",
+  },
+  {
+    title: "Data Science & Algorithmic Foundations",
+    organization: "University of Peshawar",
+    description:
+      "Academic coursework in computer algorithms, computational data science, data manipulation, and software engineering methodologies.",
+    icon: "laptop",
+  },
+  {
+    title: "Introduction to Cybersecurity",
+    organization: "Cisco Networking Academy",
+    description:
+      "Fundamental training in cybersecurity principles, threat defense mechanisms, data encryption, and safe application architecture.",
+    icon: "shield",
+  },
+  {
+    title: "Software Engineering & Algorithmic Utilities",
+    organization: "CodeAlpha Engineering",
+    description:
+      "Hands-on engineering certification developing stateful client-side utilities, algorithmic calculations, and responsive interface architectures.",
+    icon: "award",
+  },
+];
