@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Mail, MessageCircle, Image } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./BrandIcons";
 import { personalInfo } from "@/data/portfolioData";
 

@@ -25,7 +25,7 @@ export default function Footer() {
               {personalInfo.name}
             </p>
             <p className="text-xs sm:text-sm text-muted-foreground mt-0.5 sm:mt-1">
-              Full Stack Developer & Tech Lead
+              Full-Stack MERN Developer & Software Engineer
             </p>
           </div>
 

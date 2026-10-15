@@ -24,9 +24,9 @@ export default function SplashScreen() {
       }}
     >
       <div className="text-center">
-        <h1 className="text-2xl sm:text-3xl font-bold text-foreground mb-2 tracking-tight">
+        <p className="text-2xl sm:text-3xl font-bold text-foreground mb-2 tracking-tight">
           Muzammil Ali
-        </h1>
+        </p>
         <p className="text-sm text-muted-foreground font-mono">
           Full Stack Developer
         </p>

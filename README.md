@@ -1,56 +1,74 @@
-# Ibrahim Khan Portfolio - Full Replica
+# Muzammil Ali — Full-Stack MERN Developer Portfolio
 
-An exact, high-fidelity replica of [ibrahimkhan.pro](https://www.ibrahimkhan.pro/) built with the **same tech stack as EduHub** (React 19, Vite, Tailwind CSS v4, Framer Motion, Lucide React).
+A modern, high-performance personal portfolio built for **Muzammil Ali**, a Full-Stack MERN Developer and Data Science student based in Peshawar, Pakistan. Architected with **React 19**, **Vite**, **Tailwind CSS v4**, **Framer Motion**, and production-grade **Technical SEO & Entity Disambiguation Schema**.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+* **Frontend Framework:** React 19 (Functional Components, Modern Hooks)
+* **Build Tooling:** Vite 8 (Fast HMR and optimized production bundling)
+* **Styling:** Tailwind CSS v4 (Modern `@theme` design tokens, CSS variables, Dark Mode)
+* **Animations:** Framer Motion (Scroll animations, smooth micro-interactions)
+* **Icons:** Lucide React & Custom Brand SVG Components
+* **SEO & Knowledge Graph:** Schema.org JSON-LD (`Person`, `ProfilePage`, `WebSite`), OpenGraph, Twitter Cards, Semantic HTML5, `robots.txt`, and XML Sitemap
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Run the Development Server
+### 1. Install Dependencies
+```bash
+npm install
+```
+
+### 2. Run Development Server
 ```bash
 npm run dev
 ```
+The application will be available at: **`http://localhost:5174`**
 
-The app will be available at: **`http://localhost:5174`**
-
-### 2. Build for Production
+### 3. Build for Production
 ```bash
 npm run build
 ```
 
-### 3. Preview Production Build
+### 4. Preview Production Build
 ```bash
 npm run preview
 ```
 
 ---
 
-## ✨ Features & Architecture Replicated
+## ✨ Features
 
-- **Intro Splash Screen**: Authentic entry splash animation showing name and title before fading smoothly into the portfolio.
-- **Floating Theme Switcher**: Dark / Light mode toggle button fixed at bottom-right with persistence (`localStorage`) and system preference auto-detection.
-- **Sticky Navbar & Scrollspy**: Glassmorphic blur navigation with active section detection and smooth scroll to sections.
-- **Mobile Menu Drawer**: Responsive mobile hamburger toggle with dropdown animation.
-- **Hero Section**:
-  - Live typing typewriter effect cycling through `"Full Stack Developer"`, `"Software Engineer"`, and `"Tech Lead"`.
-  - Action buttons (`Get in Touch`, `View Projects`).
-  - Social quick links (GitHub, LinkedIn, Email, WhatsApp).
-  - High-res profile image with styled container.
-- **About Me**:
-  - "Who I Am" narrative card with career summary.
-  - "Education" card with university and institute credentials.
-- **Work Experience**:
-  - Multi-role and single-role timeline cards for all 5 companies (Saylani Welfare, Techzify Solutions, TechOn Ventures, SMIT, Twelve Monday Technologies).
-  - Badges for employment type, location, tech tags, and bulleted engineering accomplishments.
-  - Dynamic company initials badge generator.
-- **Skills & Technologies**:
-  - 20-item responsive grid featuring official brand SVGs with tailored brand colors and hover-lift animations.
-- **Featured Projects**:
-  - 7 production project showcases with image previews, hover zoom effect, external link trigger, tech stack pills, and live demo / repository links.
-- **Certificates & Achievements**:
-  - 7 professional certifications from IBM, Packt, Cisco, NAVTTC, DigiSkills, and YDI with categorical icon badges.
-- **Contact Section**:
-  - Interactive contact form with validation, submitting state, and success feedback.
-  - Direct contact information (Email, Phone, Location) and social media handles.
-- **Footer**:
-  - Navigation links, social links, and dynamic copyright year.
+* **Intro Splash Animation:** Smooth fade-in presentation card on initial application mount.
+* **Theme System:** Floating Dark/Light mode switcher with persistence (`localStorage`) and system preference auto-detection.
+* **Sticky Navigation & Scrollspy:** Glassmorphic navigation header with live active section indicator and smooth scrolling.
+* **Hero Section:**
+  * Live typewriter effect highlighting core competencies.
+  * Quick-action CTA buttons (`Get in Touch`, `View Projects`).
+  * Direct verified social links (GitHub, LinkedIn, Email, WhatsApp).
+  * Optimized profile image with Core Web Vitals layout prioritization.
+* **About Me:**
+  * Authentic narrative card detailing background, MERN engineering experience, and Data Science studies.
+  * Education credentials from University of Peshawar and Saylani Mass IT Training (SMIT).
+* **Work Experience:**
+  * Structured timeline cards showcasing engineering roles (SMIT EduHub LMS frontend architecture, CodeAlpha software development internship).
+  * Employment type, location badges, key engineering accomplishments, and tech stack tags.
+* **Skills & Technologies:**
+  * Responsive grid featuring official brand SVGs with tailored brand colors and hover-lift micro-interactions.
+* **Featured Projects:**
+  * Production showcases (EduHub LMS, Pollify, MedFlow, Islamic Desk, 12Commerce SaaS) with live preview links, status badges, and tech stack pills.
+* **Certificates & Achievements:**
+  * Verified credentials from Saylani Mass IT Training (SMIT), University of Peshawar, Cisco Networking Academy, and CodeAlpha.
+* **Contact Section:**
+  * Interactive contact form with form validation, loading states, and direct contact channels.
+* **Comprehensive Technical SEO:**
+  * Fully compliant Schema.org JSON-LD structured data for Google Knowledge Graph disambiguation.
+  * XML Sitemap (`sitemap.xml`) and Crawler Directives (`robots.txt`).
+
+---
+
+## 📄 License & Attribution
+Designed and engineered for **Muzammil Ali** ([alimuzmmil294@gmail.com](mailto:alimuzmmil294@gmail.com)). All rights reserved.
