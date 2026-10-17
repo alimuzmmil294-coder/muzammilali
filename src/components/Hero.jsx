@@ -69,6 +69,7 @@ export default function Hero() {
           </h1>
 
           <div className="text-xl sm:text-2xl text-muted-foreground mb-4 sm:mb-6 min-h-[2.25rem] sm:min-h-[2.5rem] flex items-center justify-center md:justify-start font-medium">
+            <span className="sr-only">Full-Stack MERN Developer • Software Engineer • React &amp; Node.js Specialist</span>
             <Typewriter words={personalInfo.roles} speed={70} pause={2000} />
           </div>
 
