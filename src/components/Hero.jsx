@@ -143,7 +143,7 @@ export default function Hero() {
             <div className="relative w-full h-full rounded-2xl overflow-hidden bg-muted border border-border/60 shadow-lg">
               <img
                 src={personalInfo.profileImage}
-                alt="Muzammil Ali - Full Stack MERN Developer based in Peshawar, Pakistan"
+                alt="Muzammil Ali - Full-Stack Developer & Tech Lead based in Peshawar, Pakistan"
                 width="384"
                 height="384"
                 loading="eager"

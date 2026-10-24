@@ -18,6 +18,7 @@ function ProjectCard({ project, index }) {
         target="_blank"
         rel="noopener noreferrer"
         className="block h-full group cursor-pointer"
+        aria-label={`View project details and live link for ${project.title}`}
       >
         <div className="overflow-hidden h-full flex flex-col border border-border bg-card hover:shadow-lg transition-all duration-300 rounded-2xl">
           {/* Project Media Header: Actual Image or Reserved Placeholder */}
@@ -25,7 +26,7 @@ function ProjectCard({ project, index }) {
             <div className="relative h-48 sm:h-52 overflow-hidden bg-muted">
               <img
                 src={project.image}
-                alt={`${project.title} - Full-Stack project by Muzammil Ali`}
+                alt={project.imageAlt || `${project.title} - Full-Stack project by Muzammil Ali`}
                 loading="lazy"
                 decoding="async"
                 width="600"

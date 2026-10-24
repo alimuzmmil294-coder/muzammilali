@@ -184,6 +184,7 @@ export const projects = [
     description:
       "Architected by Muzammil Ali at Saylani Mass IT Training (SMIT), EduHub is an institutional learning management system designed to streamline academic operations and classroom collaboration. Built with a scalable React and Tailwind CSS frontend architecture, it provides role-based portals for students, instructors, and administrators to seamlessly manage course enrollments, lecture materials, assignments, attendance tracking, and academic performance analytics.",
     image: "/assets/eduhub.png",
+    imageAlt: "EduHub LMS student attendance and performance dashboard interface",
     projectLink: "https://edu-hub-0.vercel.app/",
     technologies: [
       "React.js",
@@ -205,6 +206,7 @@ export const projects = [
     description:
       "An institutional learning management and administrative dashboard engineered to streamline campus operations. Features live student and teacher metric tracking, dynamic attendance logging with automated check-in and checkout timestamps, task management workflows, and dedicated course and team administration modules.",
     image: "/assets/smit-lms-dashboard.png",
+    imageAlt: "SMIT Learning Management System campus operations and attendance tracking dashboard",
     projectLink: "https://smit-lms-h8sn.vercel.app/",
     technologies: [
       "React.js",
@@ -223,6 +225,7 @@ export const projects = [
     description:
       "Engineered by Muzammil Ali, Pollify is a real-time community engagement platform built with the MERN stack (MongoDB, Express.js, React, Node.js). Features full JWT user authentication, interactive vote tallying with dynamic progress bars, threaded comments, and personal activity metrics.",
     image: "/assets/pollify.png",
+    imageAlt: "Pollify interactive polling platform dashboard",
     highlights: [
       "Full user auth flow (register, login, sessions)",
       "Create, edit, delete, vote, save, and share polls",
@@ -247,6 +250,7 @@ export const projects = [
     description:
       "Engineered by Muzammil Ali, MedFlow is an AI-assisted clinic management platform modernizing outpatient workflows for healthcare practices. Features encrypted digital patient health records, appointment scheduling, automated prescription handling, and role-based staff permissions—integrated with AI diagnostics that assist doctors and translate clinical insights into patient-friendly language.",
     image: "/assets/medflow.png",
+    imageAlt: "MedFlow smart clinic management operating system with AI diagnostic assistant",
     projectLink: "https://heckathon-project-six.vercel.app/",
     technologies: [
       "React.js",
