@@ -184,13 +184,36 @@ export const projects = [
     description:
       "Architected by Muzammil Ali at Saylani Mass IT Training (SMIT), EduHub is an institutional learning management system designed to streamline academic operations and classroom collaboration. Built with a scalable React and Tailwind CSS frontend architecture, it provides role-based portals for students, instructors, and administrators to seamlessly manage course enrollments, lecture materials, assignments, attendance tracking, and academic performance analytics.",
     image: "/assets/eduhub.png",
-    projectLink: "https://eduhub-demo.com",
+    projectLink: "https://edu-hub-0.vercel.app/",
     technologies: [
       "React.js",
       "Tailwind CSS",
       "Redux Toolkit",
       "REST API",
       "Git & GitHub",
+      "JWT",
+      "Bcrypt",
+      "Express.js",
+      "MongoDB",
+      "Node.js",
+    ],
+  },
+  // SMIT LMS
+  {
+    title: "SMIT Learning Management System (LMS)",
+    subtitle: "Enterprise Academic & Attendance Tracking Portal",
+    description:
+      "An institutional learning management and administrative dashboard engineered to streamline campus operations. Features live student and teacher metric tracking, dynamic attendance logging with automated check-in and checkout timestamps, task management workflows, and dedicated course and team administration modules.",
+    image: "/assets/smit-lms-dashboard.png",
+    projectLink: "https://smit-lms-h8sn.vercel.app/",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "REST API",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
     ],
   },
 

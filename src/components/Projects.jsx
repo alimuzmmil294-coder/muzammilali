@@ -70,9 +70,14 @@ function ProjectCard({ project, index }) {
 
           {/* Details Body */}
           <div className="flex flex-col flex-grow p-4 sm:p-5 md:p-6">
-            <h3 className="font-bold text-base sm:text-lg text-foreground mb-2 group-hover:text-primary transition-colors duration-200 line-clamp-2">
+            <h3 className="font-bold text-base sm:text-lg text-foreground mb-1.5 group-hover:text-primary transition-colors duration-200 line-clamp-2">
               {project.title}
             </h3>
+            {project.subtitle && (
+              <p className="text-xs font-medium text-primary mb-2 line-clamp-1">
+                {project.subtitle}
+              </p>
+            )}
             <p className="text-muted-foreground text-xs sm:text-sm mb-4 flex-grow leading-relaxed line-clamp-3">
               {project.description}
             </p>
