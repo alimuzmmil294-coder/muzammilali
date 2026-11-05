@@ -184,7 +184,8 @@ export const projects = [
     description:
       "Architected by Muzammil Ali at Saylani Mass IT Training (SMIT), EduHub is an institutional learning management system designed to streamline academic operations and classroom collaboration. Built with a scalable React and Tailwind CSS frontend architecture, it provides role-based portals for students, instructors, and administrators to seamlessly manage course enrollments, lecture materials, assignments, attendance tracking, and academic performance analytics.",
     image: "/assets/eduhub.png",
-    imageAlt: "EduHub LMS student attendance and performance dashboard interface",
+    imageAlt:
+      "EduHub LMS student attendance and performance dashboard interface",
     projectLink: "https://edu-hub-0.vercel.app/",
     technologies: [
       "React.js",
@@ -206,7 +207,8 @@ export const projects = [
     description:
       "An institutional learning management and administrative dashboard engineered to streamline campus operations. Features live student and teacher metric tracking, dynamic attendance logging with automated check-in and checkout timestamps, task management workflows, and dedicated course and team administration modules.",
     image: "/assets/smit-lms-dashboard.png",
-    imageAlt: "SMIT Learning Management System campus operations and attendance tracking dashboard",
+    imageAlt:
+      "SMIT Learning Management System campus operations and attendance tracking dashboard",
     projectLink: "https://smit-lms-h8sn.vercel.app/",
     technologies: [
       "React.js",
@@ -250,7 +252,8 @@ export const projects = [
     description:
       "Engineered by Muzammil Ali, MedFlow is an AI-assisted clinic management platform modernizing outpatient workflows for healthcare practices. Features encrypted digital patient health records, appointment scheduling, automated prescription handling, and role-based staff permissions—integrated with AI diagnostics that assist doctors and translate clinical insights into patient-friendly language.",
     image: "/assets/medflow.png",
-    imageAlt: "MedFlow smart clinic management operating system with AI diagnostic assistant",
+    imageAlt:
+      "MedFlow smart clinic management operating system with AI diagnostic assistant",
     projectLink: "https://heckathon-project-six.vercel.app/",
     technologies: [
       "React.js",
@@ -296,11 +299,17 @@ export const projects = [
 
 export const certificates = [
   {
-    title: "Web and Mobile App Development (MERN)",
+    title: "Web and Mobile App Development (Batch-4)",
     organization: "Saylani Mass IT Training (SMIT)",
+    period: "Jul 2025 – Oct 2026",
+    duration: "16 Months",
+    credentialId: "SMIT/2025/WMAD/B4/425059",
     description:
-      "Professional full-stack certification covering MongoDB, Express.js, React, Node.js, Redux Toolkit, REST API architecture, and production deployment.",
+      "Professional 16-month full-stack certification covering MongoDB, Express.js, React, Node.js, Redux Toolkit, REST API architecture, and production deployment.",
     icon: "code",
+    image: "/assets/smit-certificate.jpg",
+    imageAlt:
+      "Saylani IT Training Programme Certificate for Web and Mobile App Development awarded to Muzammil Ali",
   },
   {
     title: "Data Science & Algorithmic Foundations",

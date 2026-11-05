@@ -26,13 +26,19 @@
   </url>
   <url>
     <loc>https://muzammilali.vercel.app/#skills</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://muzammilali.vercel.app/#certificates</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://muzammilali.vercel.app/#contact</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
