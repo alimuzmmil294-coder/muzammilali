@@ -312,6 +312,19 @@ export const certificates = [
       "Saylani IT Training Programme Certificate for Web and Mobile App Development awarded to Muzammil Ali",
   },
   {
+    title: "BootCamp (Batch-1)",
+    organization: "Saylani Mass IT Training (SMIT)",
+    period: "Aug 2026 – Nov 2026",
+    duration: "4 Months",
+    credentialId: "SMIT/2026/BTC/B1/953071",
+    description:
+      "Intensive 4-month practical software engineering bootcamp focusing on accelerated full-stack development, modern agile team workflows, API integration, and hands-on application delivery.",
+    icon: "laptop",
+    image: "/assets/smit-bootcamp-certificate.jpg",
+    imageAlt:
+      "Saylani IT Training Programme Certificate for BootCamp (Batch-1) awarded to Muzammil Ali",
+  },
+  {
     title: "Data Science & Algorithmic Foundations",
     organization: "University of Peshawar",
     description:

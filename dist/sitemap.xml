@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://muzammilali.vercel.app/</loc>
-    <lastmod>2026-10-24</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://muzammilali.vercel.app/#about</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://muzammilali.vercel.app/#projects</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://muzammilali.vercel.app/#experience</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://muzammilali.vercel.app/#skills</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://muzammilali.vercel.app/#certificates</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://muzammilali.vercel.app/#contact</loc>
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/og-image.png</image:loc>
+      <image:title>Muzammil Ali - Full-Stack Developer &amp; Tech Lead</image:title>
+      <image:caption>Portfolio of Muzammil Ali — Full-Stack Developer specializing in React, TypeScript, Node.js, and MongoDB.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/assets/profilepic.jpg</image:loc>
+      <image:title>Muzammil Ali Profile Photo</image:title>
+      <image:caption>Muzammil Ali - Full-Stack Developer based in Peshawar, Pakistan</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/assets/eduhub.png</image:loc>
+      <image:title>EduHub LMS - Learning Management System</image:title>
+      <image:caption>Institutional learning management and campus attendance dashboard</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/assets/smit-lms-dashboard.png</image:loc>
+      <image:title>SMIT Learning Management System (LMS)</image:title>
+      <image:caption>Enterprise academic and attendance tracking portal</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/assets/pollify.png</image:loc>
+      <image:title>Pollify - Interactive MERN Polling App</image:title>
+      <image:caption>Real-time community engagement and polling platform</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/assets/medflow.png</image:loc>
+      <image:title>MedFlow - Smart Clinic Management OS</image:title>
+      <image:caption>AI-assisted clinic management platform with encrypted health records</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/assets/smit-certificate.jpg</image:loc>
+      <image:title>Saylani IT Training Programme Certificate - Web and Mobile App Development</image:title>
+      <image:caption>16-month professional full-stack MERN certification awarded to Muzammil Ali</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://muzammilali.vercel.app/assets/smit-bootcamp-certificate.jpg</image:loc>
+      <image:title>Saylani IT Training Programme Certificate - BootCamp (Batch-1)</image:title>
+      <image:caption>4-month software engineering bootcamp certification awarded to Muzammil Ali</image:caption>
+    </image:image>
   </url>
 </urlset>
